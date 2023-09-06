@@ -19,11 +19,10 @@ These instructions will get you a copy of the project up and running on your loc
    ^ for Password 
     ```
 
-  After you input your detail, Clone the repository at your exam folder (XAMPP - htdocs)
-  
-   ```
-   git clone https://github.com/ayeibithao/convene-exam.git
-   ```
+  After you input your detail, Clone the repository at your exam folder (XAMPP - htdocs) 
+    ```
+     git clone https://github.com/ayeibithao/convene-exam.git
+    ```
     
 4. Create anew branch for your technical exam:
 
