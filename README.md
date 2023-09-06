@@ -8,13 +8,24 @@ These instructions will get you a copy of the project up and running on your loc
 ## Instruction:
 
 1. Create a GitHub account
-2. Go to the htdocs directory of XAMPP, then clone the Git project via Terminal:
+2. Go to the htdocs directory of XAMPP and create a folder file for your exam, then clone the Git project via Terminal:
 
+   Update your Git information first on your local machine:
+   
+    ```
+   git config --global user.name "Your Username"
+   git config --global user.email "Your GitHub Email"
+   git config --global credential.helper wincred 
+   ^ for Password 
+    ```
+
+  After you input your detail, Clone the repository at your exam folder (XAMPP - htdocs)
+  
     ```
    git clone https://github.com/ayeibithao/convene-exam.git
     ```
     
-3. Create anew branch for your technical exam:
+4. Create anew branch for your technical exam:
 
     ```
    git checkout -b convene-exam#yymmdd (date) - applicant's name (no space and small letters only)
@@ -22,8 +33,8 @@ These instructions will get you a copy of the project up and running on your loc
    git checkout -b convene-exam#231017-ayeibithao
     ```
     
-4. DO NOT modify directly to "main" branch, you may only makes changes, create files, and modify on your own created branch.
-5. FOR SUBMISSION: After you're done with your exam, commit your changes and push.
+5. DO NOT modify directly to "main" branch, you may only makes changes, create files, and modify on your own created branch.
+6. FOR SUBMISSION: After you're done with your exam, commit your changes and push.
 
     ```
     git commit -m "Convene Technical Exam by (Applicant's Name)"
@@ -31,7 +42,7 @@ These instructions will get you a copy of the project up and running on your loc
     git push
     
     ```
-6. Finally, go to GitHub (https://github.com/ayeibithao/convene-exam) and click "New Pull Request" button. This will create a pull request from your created branch to the original repository where the Convene Dev Team can review your code.
+7. Finally, go to GitHub (https://github.com/ayeibithao/convene-exam) and click "New Pull Request" button. This will create a pull request from your created branch to the original repository where the Convene Dev Team can review your code.
    
 
 ## Requirements:
