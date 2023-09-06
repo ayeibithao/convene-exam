@@ -8,9 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 ## Landing Page Exam
 
 1. Download the design mockup and assets for the landing page from the following link:
-   Landing Page Mockup 
-   Landing Page Assets 
-   Landing Page Copy and Meta-tags
+   a. Landing Page Mockup
+   b. Landing Page Assets
+   c. Landing Page Copy and Meta-tags
 
 ## Requirements:
 
