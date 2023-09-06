@@ -32,7 +32,7 @@ These instructions will get you a copy of the project up and running on your loc
    git checkout -b convene-exam#231017-ayeibithao
     ```
     
-5. DO NOT modify directly to "main" branch, you may only makes changes, create files, and modify on your own created branch.
+5. DO NOT modify directly to "master" branch, you may only makes changes, create files, and modify on your own created branch.
 6. FOR SUBMISSION: After you're done with your exam, commit your changes and push.
 
     ```
