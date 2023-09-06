@@ -11,7 +11,6 @@ These instructions will get you a copy of the project up and running on your loc
    Landing Page Mockup
    Landing Page Assets
    Landing Page Copy and Meta-tags
-2. 
 
 ## Requirements:
 
