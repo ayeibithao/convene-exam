@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
     ```
     
 4. DO NOT modify directly to "develop/master" branch, you may only makes changes, create files, and modify on your own created branch.
-5. After you're done with your exam, commit your changes and push.
+5. FOR SUBMISSION: After you're done with your exam, commit your changes and push.
 
     ```
     git commit -m "Convene Technical Exam by (Applicant's Name)"
@@ -57,7 +57,8 @@ A step-by-step series of examples that tell you how to get a development env run
 
 3. Install Node.js
 
-    Download the latest release of [NVM for Windows](https://github.com/coreybutler/nvm-windows). This will act as the manager of the Node.js versions to be installed on your machine.
+   Download the latest release of [NVM for Windows](https://github.com/coreybutler/nvm-windows).
+   This will act as the manager of the Node.js versions to be installed on your machine.
 
     ```
     nvm install 10.15.3
@@ -94,9 +95,9 @@ A step-by-step series of examples that tell you how to get a development env run
 5. Open a Web Browser and go to the following URL
 
     ```
-    http://localhost/azeus-convene-wordpress
+    http://localhost/webdev-convene-exam
     ```
-### Coding Standards
+### Coding Standards to Follow
 
 - Use spaces instead of tabs
 - Use two spaces for tab stops
