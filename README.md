@@ -94,8 +94,7 @@ A step-by-step series of examples that tell you how to get a development env run
     git push
     
     ```
-7. Finally, go to GitHub (https://github.com/ayeibithao/convene-exam) and click "New Pull Request" button. This will create a pull request from your created branch to the original repository where the Convene Dev Team can review your code.
-   
+7. Finally, go to GitHub (https://github.com/ayeibithao/convene-exam) and click "Pull Requests" then click "New pull request" button to submit your exam.
 
 ### Coding Standards to Follow
 
