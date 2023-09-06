@@ -5,6 +5,15 @@ This repository is intended only for Web Developer - Technical Exam
 
 These instructions will get you a copy of the project up and running on your local machine for development exam purposes.
 
+## Instruction:
+
+1. Create a GitHub account
+2. Go to the htdocs directory of XAMPP, then clone the Git project via Terminal:
+
+    ```
+   git clone 
+    ```
+
 ## Requirements:
 
 1. Git
