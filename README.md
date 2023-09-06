@@ -11,8 +11,28 @@ These instructions will get you a copy of the project up and running on your loc
 2. Go to the htdocs directory of XAMPP, then clone the Git project via Terminal:
 
     ```
-   git clone 
+   git clone https://github.com/ayeibithao/convene-exam.git
     ```
+    
+3. Create anew branch for your technical exam:
+
+    ```
+   git checkout -b convene-exam#yymmdd (date) - applicant's name (no space and small letters only)
+
+   git checkout -b convene-exam#231017-ayeibithao
+    ```
+    
+4. DO NOT modify directly to "develop/master" branch, you may only makes changes, create files, and modify on your own created branch.
+5. After you're done with your exam, commit your changes and push.
+
+    ```
+    git commit -m "Convene Technical Exam by (Applicant's Name)"
+    
+    git push
+    
+    ```
+6. Finally, go to GitHub (https://github.com/ayeibithao/convene-exam) and click "New Pull Request" button. This will create a pull request from your created branch to the original repository where the Convene Dev Team can review your code.
+   
 
 ## Requirements:
 
