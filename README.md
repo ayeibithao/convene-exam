@@ -5,44 +5,12 @@ This repository is intended only for Web Developer - Technical Exam
 
 These instructions will get you a copy of the project up and running on your local machine for development exam purposes.
 
-## Instruction:
+## Landing Page Exam
 
-1. Create a GitHub account
-2. Go to the htdocs directory of XAMPP and create a folder file for your exam, then clone the Git project via Terminal:
-
-   Update your Git information first on your local machine:
-   
-    ```
-   git config --global user.name "Your Username"
-   git config --global user.email "Your GitHub Email"
-   git config --global credential.helper wincred 
-   ^ for Password 
-    ```
-
-   After you input your detail, Clone the repository at your exam folder (XAMPP - htdocs) 
-    ```
-     git clone https://github.com/ayeibithao/convene-exam.git
-    ```
-    
-4. Create anew branch for your technical exam:
-
-    ```
-   git checkout -b convene-exam#yymmdd (date) - applicant's name (no space and small letters only)
-
-   git checkout -b convene-exam#231017-ayeibithao
-    ```
-    
-5. DO NOT modify directly to "master" branch, you may only makes changes, create files, and modify on your own created branch.
-6. FOR SUBMISSION: After you're done with your exam, commit your changes and push.
-
-    ```
-    git commit -m "Convene Technical Exam by (Applicant's Name)"
-    
-    git push
-    
-    ```
-7. Finally, go to GitHub (https://github.com/ayeibithao/convene-exam) and click "New Pull Request" button. This will create a pull request from your created branch to the original repository where the Convene Dev Team can review your code.
-   
+1. Download the design mockup and assets for the landing page from the following link:
+   Landing Page Mockup 
+   Landing Page Assets 
+   Landing Page Copy and Meta-tags
 
 ## Requirements:
 
@@ -82,17 +50,33 @@ A step-by-step series of examples that tell you how to get a development env run
     npm install -g gulp-cli
     ```
 
-### Running
+## Instruction:
 
-1. Once you are done with the installation, you may now start running the project.
+1. Create a GitHub account and once you are done with the installation, you may now start running the project.
+2. Go to the htdocs directory of XAMPP and create a folder file for your exam, then clone the Git project via Terminal:
 
-2. Go to the htdocs directory of XAMPP, then clone the Git project.
+   Update your Git information first on your local machine:
+   
+    ```
+   git config --global user.name "Your Username"
+   git config --global user.email "Your GitHub Email"
+   git config --global credential.helper wincred 
+   ^ for Password 
+    ```
+
+   After you input your detail, Clone the repository at your exam folder (XAMPP - htdocs) 
+    ```
+     git clone https://github.com/ayeibithao/convene-exam.git
+    ```
+    
+4. Create anew branch for your technical exam:
 
     ```
-    git clone 
-    ```
+   git checkout -b convene-exam#yymmdd (date) - applicant's name (no space and small letters only)
 
-3. Copy the sample wp-config and create your own copy.
+   git checkout -b convene-exam#231017-ayeibithao
+    ```
+5. Copy the sample wp-config and create your own copy.
 
     ```
     cp wp-config-sample.php wp-config.php
@@ -100,13 +84,26 @@ A step-by-step series of examples that tell you how to get a development env run
     // ^ Or just edit the file via text editor
     ```
 
-4. Start the MySQL and Apache instances in XAMPP control panel.
+6. Start the MySQL and Apache instances in XAMPP control panel.
 
-5. Open a Web Browser and go to the following URL
+7. Open a Web Browser and go to the following URL
 
     ```
     http://localhost/convene-exam
     ```
+    
+5. DO NOT modify directly to "master" branch, you may only makes changes, create files, and modify on your own created branch.
+6. FOR SUBMISSION: After you're done with your exam, commit your changes and push.
+
+    ```
+    git commit -m "Convene Technical Exam by (Applicant's Name)"
+    
+    git push
+    
+    ```
+7. Finally, go to GitHub (https://github.com/ayeibithao/convene-exam) and click "New Pull Request" button. This will create a pull request from your created branch to the original repository where the Convene Dev Team can review your code.
+   
+
 ### Coding Standards to Follow
 
 - Use spaces instead of tabs
