@@ -5,13 +5,6 @@ This repository is intended only for Web Developer - Technical Exam
 
 These instructions will get you a copy of the project up and running on your local machine for development exam purposes.
 
-## Landing Page Exam
-
-1. Download the design mockup and assets for the landing page from the following link:
-   Landing Page Mockup
-   Landing Page Assets
-   Landing Page Copy and Meta-tags
-
 ## Requirements:
 
 1. Git
