@@ -43,7 +43,7 @@ A step-by-step series of examples that tell you how to get a development env run
     npm install -g gulp-cli
     ```
 
-## Instruction:
+## Instruction (Git):
 
 1. Create a GitHub account and once you are done with the installation, you may now start running the project.
 2. Go to the htdocs directory of XAMPP and create a folder file for your exam, then clone the Git project via Terminal:
